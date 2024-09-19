@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>pe.com.claro.vent</groupId>
+		<artifactId>claro-vent-pinporta</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<artifactId>claro-vent-pinporta-canonical</artifactId>
+	<dependencies>
+		<dependency>
+			<groupId>pe.com.claro.vent</groupId>
+			<artifactId>claro-common</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>RELEASE</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.0</version>
+				<configuration>
+					<target>${java-version}</target>
+					<source>${java-version}</source>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

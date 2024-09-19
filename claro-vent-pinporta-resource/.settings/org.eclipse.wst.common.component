@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="claro-vent-pinporta-resource">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="claro-common-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/claro-common/claro-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="claro-vent-pinporta-domain-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/claro-vent-pinporta-domain/claro-vent-pinporta-domain">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="claro-vent-pinporta-model-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/claro-vent-pinporta-model/claro-vent-pinporta-model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="claro-rest-api-client-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/claro-rest-api-client/claro-rest-api-client">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="claro-rest-api-common-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/claro-rest-api-common/claro-rest-api-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="claro-vent-pinporta-canonical-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/claro-vent-pinporta-canonical/claro-vent-pinporta-canonical">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="claro-vent-pinporta-resource"/>
+        <property name="java-output-path" value="/claro-vent-pinporta-resource/target/classes"/>
+    </wb-module>
+</project-modules>
